@@ -97,6 +97,7 @@ class Message extends BaseObject
     {
         $types = [
             'text',
+            'reply_to_message',
             'audio',
             'document',
             'game',
